@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import guru.springframework.msscbeerservice.web.model.BeerDTO;
 
 @RestController
-@RequestMapping("api/v1/beer")
+@RequestMapping("/api/v1/beer")
 public class BeerController {
 
 	@GetMapping("/{beerId}")
